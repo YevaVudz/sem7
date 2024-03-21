@@ -19,6 +19,7 @@ body{
     font-weight: 400;
     font-style: normal;
 
+
   /*  font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;*/
@@ -35,6 +36,8 @@ header{
     background-color: #379AE3;
     width: 100%;
     position: fixed;
+
+    font-size: 18px;
 }
 
 header ul{
@@ -43,6 +46,10 @@ header ul{
     justify-content: center;
     list-style: none;
     
+}
+
+header ul :hover{
+    color: white;
 }
     
 header div{
@@ -53,4 +60,32 @@ header div{
 
 a{
     text-decoration: none;
+    color: black;
+    font-weight: bold;
 }    
+
+.logo{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 24px ;
+}
+
+.billets{
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+}
+
+
+/*   HERO   */
+
+.hero{
+    background-image: url(../images/Hero\ image\ droite.jpg);
+    height: 637px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
