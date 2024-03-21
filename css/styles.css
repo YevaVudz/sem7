@@ -4,6 +4,53 @@ html{
     box-sizing: border-box;
 }
 
-*:before,*:after{
+*,*:before,*:after{
     box-sizing: inherit;
 }
+
+/*  BASE   */
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+  /*  font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;*/
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*   HEADER   */
+
+header{
+    background-color: #379AE3;
+    width: 100%;
+    position: fixed;
+}
+
+header ul{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    list-style: none;
+    
+}
+    
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}    
